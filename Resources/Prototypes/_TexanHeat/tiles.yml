@@ -1,0 +1,140 @@
+#Wasteland Grass Tile, 3 variants
+- type: tile
+  id: TH14Wastelandgrass
+  name: Wasteland Grass
+  sprite: /textures/_TexanHeat/Tiles/grasstype1-3.png
+  variants: 3
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  isSubfloor: true
+  footstepSounds:
+    collection: FootstepAsteroid
+  heatCapacity: 10000
+  weather: true
+  indestructible: true
+
+#Swamp Adobe Tiles 3 variants
+- type: tile
+  id: TH14SwampAdobe
+  name: Adobe cover
+  sprite: /textures/_TexanHeat/Tiles/swampmudadobecover3.png
+  variants: 3
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  isSubfloor: true
+  footstepSounds:
+    collection: FootstepAsteroid
+  heatCapacity: 10000
+  weather: true
+  indestructible: true 
+
+#Swamp Grass, only 1 variant
+- type: tile
+  id: TH14Grassyswamp
+  name: Grassy Swamp
+  sprite: /textures/_TexanHeat/Tiles/grassyswamp-1.png
+  variants: 1
+  placementVariants:
+  - 1.0
+  isSubfloor: true
+  footstepSounds:
+    collection: FootstepAsteroid
+  heatCapacity: 10000
+  weather: true
+  indestructible: true
+
+#MORE Swamp mud, only 1 variant
+- type: tile
+  id: TH14Swampmud
+  name: Swamp Mud
+  sprite: /textures/_TexanHeat/Tiles/swampmud2.png
+  variants: 1
+  placementVariants:
+  - 1.0
+  isSubfloor: true
+  footstepSounds:
+    collection: FootstepAsteroid
+  heatCapacity: 10000
+  weather: true
+  indestructible: true
+
+#Cobble tiles for town, 6 variants
+- type: tile
+  id: TH14Cobblestone
+  name: Cracked Cobble
+  sprite: /textures/_TexanHeat/Tiles/cobblecracked1-6.png
+  variants: 6
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  isSubfloor: true
+  footstepSounds:
+    collection: FootstepAsteroid
+  heatCapacity: 10000
+  weather: true
+  indestructible: true
+
+#bunch of tile platforms
+- type: tile
+  id: TH14platform
+  name: Bast Platform
+  sprite: /textures/_TexanHeat/Tiles/platform.png
+  variants: 1
+  placementVariants:
+  - 1.0
+  isSubfloor: true
+  footstepSounds:
+    collection: FootstepAsteroid
+  heatCapacity: 10000
+  weather: true
+  indestructible: true
+
+- type: tile
+  id: TH14platformdrain
+  name: Platform with drain
+  sprite: /textures/_TexanHeat/Tiles/platformdrain.png
+  variants: 1
+  placementVariants:
+  - 1.0
+  isSubfloor: true
+  footstepSounds:
+    collection: FootstepAsteroid
+  heatCapacity: 10000
+  weather: true
+  indestructible: true
+
+- type: tile
+  id: TH14platformempty
+  name: Platform missing parts
+  sprite: /textures/_TexanHeat/Tiles/platformempty.png
+  variants: 1
+  placementVariants:
+  - 1.0
+  isSubfloor: true
+  footstepSounds:
+    collection: FootstepAsteroid
+  heatCapacity: 10000
+  weather: true
+  indestructible: true
+
+- type: tile
+  id: TH14platformturret
+  name: Platform with turret base
+  sprite: /textures/_TexanHeat/Tiles/platformturret.png
+  variants: 1
+  placementVariants:
+  - 1.0
+  isSubfloor: true
+  footstepSounds:
+    collection: FootstepAsteroid
+  heatCapacity: 10000
+  weather: true
+  indestructible: true
